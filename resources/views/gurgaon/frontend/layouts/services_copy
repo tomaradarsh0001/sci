@@ -1,0 +1,225 @@
+<div class="services-nav flex-column flex-nowrap">
+    <div class="nav-item">
+        <a class="nav-link" href="#submenu1" data-toggle="collapse" data-target="#submenu1">
+            <p>Urology <i class="fa fa-angle-down float-right"></i></p>
+        </a>
+        <div class="collapse show" id="submenu1">
+            <div class="flex-column nav">
+                <p class="nav-item"><a class="nav-link" href="{{ route('urology-and-andrology') }}">Urology And
+                        Andrology</a></p>
+                <p class="nav-item"><a class="nav-link" href="{{ route('kidney-stones') }}">Kidney Stone Treatment</a>
+                </p>
+                <!--<li class="nav-item"><a class="nav-link" href="#"><p>Laser Prostate Treatment</p></a></div>-->
+                <p class="nav-item"><a class="nav-link" href="{{ route('enlarged-prostate') }}">Enlarged Prostate
+                        Treatment</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="nav-item">
+        <a class="nav-link" href="#submenu2" data-toggle="collapse" data-target="#submenu2">
+            <p>Andrology <i class="fa fa-angle-down float-right"></i></p>
+        </a>
+        <div class="collapse" id="submenu2">
+            <div class="flex-column nav">
+                <p class="nav-item"><a class="nav-link" href="{{ route('male-infertility') }}">Men Infertility</a></p>
+                <p class="nav-item"><a class="nav-link" href="{{ route('urology-erectile-dysfunction') }}">Erectile
+                        Dysfunction Treatment</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Penile Prosthesis/Implant</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Shockwave Therapy</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Micro Tese</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Cystoscopy</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Circumcision</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">MicroSurgical Varicocelectomy</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="nav-item">
+        <a class="nav-link" href="#submenu3" data-toggle="collapse" data-target="#submenu3">
+            <p>Reconstructive Urology <i class="fa fa-angle-down float-right"></i></p>
+        </a>
+        <div class="collapse" id="submenu3">
+            <div class="flex-column nav">
+                <p class="nav-item"><a class="nav-link" href="{{ route('hypospadias') }}">Hypospadias Surgery and
+                        Treatment</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Urethroplasty</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Penile Curvature</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Urinary Incontinence</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="nav-item">
+        <a class="nav-link" href="#submenu4" data-toggle="collapse" data-target="#submenu4">
+            <p>Obstetrics & Gynecology <i class="fa fa-angle-down float-right"></i></p>
+        </a>
+        <div class="collapse" id="submenu4">
+            <div class="flex-column nav">
+                <p class="nav-item"><a class="nav-link" href="{{ route('obstetricsand-gynecology') }}">Obstetrics &
+                        Gynecology</a></p>
+                <p class="nav-item"><a class="nav-link" href="{{ route('ovarian-cryst-treatment') }}">Overian Cyst
+                        Treatment</a></p>
+                <p class="nav-item"><a class="nav-link" href="{{ route('fibroid-treatment') }}">Uterine Fibroid
+                        Treatment</a></p>
+                <p class="nav-item"><a class="nav-link" href="{{ route('endometriosis-treatment') }}">Endometriosis</a>
+                </p>
+                <p class="nav-item"><a class="nav-link" href="#">Menopause</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Abnormal Menstrual Bleeding</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="nav-item">
+        <a class="nav-link" href="#submenu14" data-toggle="collapse" data-target="#submenu14">
+            <p>Cosmetic Gynecology <i class="fa fa-angle-down float-right"></i></p>
+        </a>
+        <div class="collapse" id="submenu14">
+            <div class="flex-column nav">
+                <p class="nav-item"><a class="nav-link" href="{{ route('vaginal-tightening-surgery') }}">
+                        <p>Vaginal Tightening Surgery</p>
+                    </a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-item"><a class="nav-link" href="{{ route('mother-and-child-care') }}">
+            <p>Mother and Child Care</p>
+        </a></div>
+    <div class="nav-item"><a class="nav-link" href="{{ route('infertilitytreatment') }}">
+            <p>IVF & Fertility Treatments</p>
+        </a></div>
+    <div class="nav-item"><a class="nav-link" href="{{ route('bariatric-surgery') }}">
+            <p>Bariatric Surgery / Weight Loss Surgery</p>
+        </a></div>
+    <div class="nav-item">
+        <a class="nav-link" href="#submenu5" data-toggle="collapse" data-target="#submenu5">
+            <p>General Surgery <i class="fa fa-angle-down float-right"></i></p>
+        </a>
+        <div class="collapse" id="submenu5">
+            <div class="flex-column nav">
+                <p class="nav-item"><a class="nav-link"
+                        href="{{ route('advanced-laparoscopic-general-surgery') }}">General Surgery & Advanced
+                        Laproscopy Surgery</a></p>
+                <p class="nav-item"><a class="nav-link" href="{{ route('fistula-treatment') }}">Fistula Treatment</a>
+                </p>
+                <p class="nav-item"><a class="nav-link" href="{{ route('piles-treatment') }}">Piles Treatment</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Appendix</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Gall Bladder Stone Surgery</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">All type of hernia surgery</a></p>
+                <p class="nav-item"><a class="nav-link" href="#">Thyroid Surgery</a></p>
+            </div>
+        </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#submenu6" data-toggle="collapse" data-target="#submenu6">
+                <p>Orthopaedics & Spine Surgery <i class="fa fa-angle-down float-right"></i></p>
+            </a>
+            <div class="collapse" id="submenu6">
+                <ul class="flex-column nav">
+                    <li class="nav-item"><a class="nav-link" href="{{ route('orthopaedic') }}">
+                            <p>Orthopedic Treatments</p>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('paeds-orthopaedics') }}">
+                            <p>Pediatric Orthopedics</p>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('sports-injury-treatment') }}">
+                            <p> Sports injury treatment</p>
+                        </a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('neontology-and-paeds') }}">
+                <p>Neonatology & Paediatric</p>
+            </a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('best-ent-hospital') }}">
+                <p>ENT</p>
+            </a></li>
+        <!--<li class="nav-item">
+        <a class="nav-link" href="{{ route('best-ent-hospital') }}" data-toggle="collapse" data-target="#submenu7">ENT <i class="fa fa-angle-down float-right"></i></a>
+        <div class="collapse" id="submenu7">
+            <ul class="flex-column nav">
+                <li class="nav-item"><a class="nav-link" href="#">Rhinoplasty</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Fess- Sinus Surgery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tonsil & Adenoid Surgery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sinuplasty</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Microlaryngeal Surgery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tympanoplasty & Ossiculplasty</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Thyroid & Submandibular Gland Surgery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Copchlear Implants Surgery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Bera & Assr</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Allergy, Testing & Immunotherpy</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Hearing Speech & Therapy</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">ENT Endoscopic Evaluation</a></li>
+            </ul>
+        </div>
+    </li>-->
+        <li class="nav-item"><a class="nav-link" href="{{ route('cochlear-implants') }}">
+                <p>Cochlear Implants</p>
+            </a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('stemcellandregenerativemedicine') }}">
+                <p>Regenerative Medicine & Stem Cell</p>
+            </a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('DepartmentofDermatologyCosmetologyPlasticSurgery') }}">
+                <p>Cosmetic & Plastic Surgery</p>
+            </a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('InternalMedicineEndocrinology') }}">
+                <p>Internal Medicine & Endocrinology</p>
+            </a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('DepartmentofOphthalmology') }}">
+                <p>Opthalmology</p>
+            </a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('DentalDepartment') }}">
+                <p>Dental implants & Orthodontics</p>
+            </a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('health-check-up') }}">
+                <p>Health Check up</p>
+            </a></li>
+    </div>
+    <div class="row d-flex flex-column flex-sm-row flex-md-column mt-3">
+        <!--<div class="col-auto col-sm col-md-auto">
+        <div class="contact-box contact-box-1">
+            <h5 class="contact-box-title">Working Time</h5>
+            <ul class="icn-list">
+                <li>
+                    <i class="icon-clock"></i>Mon-Thu 08:00 - 20:00 <br />
+                    Friday 07:00 - 22:00 <br />
+                    Saturday 08:00 - 18:00
+                </li>
+            </ul>
+        </div>
+    </div>-->
+        <div class="col-auto col-sm col-md-auto">
+            <div class="contact-box contact-box-2">
+                <h5 class="contact-box-title">Contact Info</h5>
+                <ul class="icn-list">
+                    <li>
+                        <i class="icon-telephone"></i>
+                        <div class="d-flex flex-wrap">
+                            <a href="tel:9999446622">+91 9999446622 (For Appointment), </a> <a
+                                href="tel:01141675555">011 4167 5555 (For General Queries)</a>
+                        </div>
+                    </li>
+                    <li><i class="icon-placeholder2"></i>M 4, Near M Block Market, Greater Kailash-1, New Delhi, 110048
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="question-box mt-3">
+        <h5 class="question-box-title">Ask the Experts</h5>
+        <form action="{{ url('online-consultation') }}" class="mt-15 forms" id="" method="post" novalidate="novalidate">
+            @csrf
+            <div class="successform">
+                <p>Your message was sent successfully!</p>
+            </div>
+            <div class="errorform">
+                <p>Something went wrong, try refreshing and submitting the form again.</p>
+            </div>
+            <input type="text" class="form-control" name="name" placeholder="Your name*" />
+            <input type="text" class="form-control" name="email" placeholder="E-mail*" />
+            <input type="text" class="form-control" name="phone" placeholder="Phone" />
+            <textarea class="form-control" name="message" placeholder="Question*"></textarea>
+            <input type="hidden" name="subject" value="Online Consultation">
+            <button type="submit" class="btn btn-sm btn-hover-fill mt-15">Ask Now <i class="fa fa-spinner fa-spin"
+                    style="display:none;"></i></button>
+
+            <!-- <button type="submit" class="btn btn-sm btn-hover-fill mt-15"><i class="icon-right-arrow"></i><span>Ask Now</span><i class="icon-right-arrow"></i></button>-->
+        </form>
+    </div>
